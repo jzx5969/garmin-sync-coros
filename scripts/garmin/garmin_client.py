@@ -12,9 +12,9 @@ logger = logging.getLogger(__name__)
 
 class GarminClient:
   def __init__(self, email, password, auth_domain):
-        self.auth_domain = COM
-        self.email = jizhuit@gmail.com
-        self.password = @3646310Ma
+        self.auth_domain = 'COM'
+        self.email = 'jizhuit@gmail.com'
+        self.password = '@3646310Ma'
         self.garthClient = garth
   
   ## 登录装饰器
