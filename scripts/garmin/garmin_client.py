@@ -50,12 +50,12 @@ class GarminClient:
     all_activities = []
     start = 0
     while(True):
-      activities = self.getActivities(start=start, limit=100)
+      activities = self.getActivities(start=start, limit=30)
       if len(activities) > 0:
          all_activities.extend(activities)
       else:
          return all_activities
-      start += 100
+      start += 30
 
   ## 下载原始格式的运动
   def downloadFitActivity(self, activity):
